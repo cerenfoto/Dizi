@@ -33,9 +33,9 @@ public class MaxDizi {
             System.out.print(dizi[i] + "-");
         }
 
-        for (int i = 0; i < diziElamanSayisi; i++) {
-            if (maxEleman < dizi[i]) {
-                maxEleman = dizi[i];
+        for (int j = 0; j < diziElamanSayisi; j++) {
+            if (maxEleman < dizi[j]) {
+                maxEleman = dizi[j];
             }
         }
         System.out.println("\nDizinin en büyük elemanı:");
